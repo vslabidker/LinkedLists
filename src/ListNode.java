@@ -4,17 +4,17 @@ public final class ListNode {
 
     ListNode() {}
 
-    ListNode(int val) {
+    ListNode(final int val) {
         this.val = val;
     }
 
-    ListNode(int val, ListNode next) {
+    ListNode(final int val, final ListNode next) {
         this.val = val;
         this.next = next;
     }
 
     @Override
-    public final String toString() {
+    public String toString() {
         return Integer.toString(this.val);
     }
 }
