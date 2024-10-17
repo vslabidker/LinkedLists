@@ -1,4 +1,4 @@
-public class ListNode {
+public final class ListNode {
     int val;
     ListNode next;
 
@@ -14,7 +14,7 @@ public class ListNode {
     }
 
     @Override
-    public String toString() {
+    public final String toString() {
         return Integer.toString(this.val);
     }
 }
